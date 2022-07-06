@@ -1,27 +1,136 @@
-{
-  "name": "RED DRAGON BOT",
-  "description": "☬𝗥𝗘𝗗༒𝗗𝗥𝗔𝗚𝗢𝗡-𝗕𝗢𝗧࿐ | By: RED-DRAGONᵀᴹ | 𝐌𝐑: ☬𝔻𝔸ℝ𝕂༒ℕ𝕀𝕋ℝ𝕆࿐",
-  "repository": "https://github.com/prabhasha2006/Red-Dragon",
-  "logo": "https://i.ibb.co/CwffZ61/20220605-104552.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
+[0:03 pm, 06/07/2022] My Diolog Number: {
+  "creds": {
+    "noiseKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "qKKNK8V+5EJE9RRw+LBGFQQpDT05FPfFSh9XAt8Np2E="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "telV3QZooOjjBuvQOX7Vv/MViPJ6L5igopLrVkz6sTo="
+      }
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    "signedIdentityKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "uGsBV3WfsIsHE+ahCPRdqYWmT9yE64bdxGLH7Ys4020="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "SJO5fEuOEkzcPErOajmCLpL8XzLv5siP0yDvtNm173Y="
+      }
     },
-    {
-            "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
+    "signedPreKey": {
+      "keyPair": {
+        "private": {
+          "type": "Buffer",
+          "data": "eOZKLq+J5fdFYGo2/zplqm9G8S0gJfxAX2zyA7LjbHo="
         },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
-   "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
+        "public": {
+          "type": "Buffer",
+          "data": "Socj9Qbm97EBPJQW9QCFsVMSa/H+zVvT8aGmTZt9UQY="
         }
-    }
-}
+      },
+      "signature": {
+        "type": "Buffer",
+        "data": "XM3XDac8j7vY2yRXeFcrX0k1+ncvF9CbwsB1mPQubFpg+xXl07eY2nbH0zfYro0efvF3YkTQMSropmDktXzMjA=="
+      },
+      "keyId": 1
+    },
+    "registrationId": 142,
+    "advSecretKey": "T8fbRS6tOaUHn3F04Jvbcn9o5gF/sp2pGfrZD1IbOic=",
+    "nextPreKeyId": 31,
+    "firstUnuploadedPreKeyId": 31,
+    "serverHasPreKeys": true,
+    "account": {
+      "details": "CLC9oJsHEMnNlJYGGAE=",
+      "accountSignatureKey": "gI+ix2Ma6rUqpeN7uF0maPO4jIsmmL5zOPPCGhQDpWo=",
+      "accountSignature": "tVLqm5my6LWEEVylZDavTmw2kGw7HJWjZDzCjA05/6D6ibCiSYKuoRrP/LsOcTKtg2OP4gEqeCpSlGAIVFH7CQ==",
+      "deviceSignature": "mfq1KxdH3NOzsa8D0D9iwl2XhhrfLMxFBQBLQNSCEwBW5J+y4zSzZceRssVub3JO/z410xzkY0WZb6dmGuyGig=="
+    },
+    "me": {
+      "id": "94740551067:1@s.whatsapp.net",
+      "verifiedName": "",
+      "name": "Tishan sasidu"
+    },
+    "signalIdentities": [
+      {
+        "identifier": {
+          "name": "94740551067:1@s.whatsapp.net",
+          "deviceId": 0
+        },
+        "identifierKey": {
+          "type": "Buffer",
+          "data": "BYCPosdjGuq1KqXje7hdJmjzuIyLJpi+czjzwhoUA6Vq"
+        }
+      }
+    ],
+    "lastAccountSyncTimestamp": 1657087691,
+    "myAppStateKeyId": "AAAAAP92"
+  },
+  "keys": {
+    "preKeys": {
+      "1": {
+        "private": {
+          "type": "Buffer",
+          "data": "mD9nVQYyO2CwpyzO5Qfqb5kM8/VzqdH+VA5gRMdae3g="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "TkPGd7yrgIjycGPzKuktj75qVp3JsfQT9f7plCV5LW8="
+        }
+      },
+      "2": {
+        "private": {
+          "type": "Buffer",
+          "data": "MLFER5EuK+DyfkrBeHA2GGvVFFnDlkYQiWmNOiNUxlk="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "vqKol6e462xa8hGI89YV7LCdCsU9S48Da9r+nBKhsB8="
+        }
+      },
+      "3": {
+        "private": {
+          "type": "Buffer",
+          "data": "QDMNOGorlQ1VzXwHlWrKxX2AeG+/4v/rj+5ruCnyZ1I="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "T0QzwZbnrbdb5YXtwlIIV2Ri3kpjFy2+0GVhELxrZBc="
+        }
+      },
+      "4": {
+        "private": {
+          "type": "Buffer",
+          "data": "oKEn7bl+DZ9J2jBolE8HvlZ7mjyeME9WHGBRdK1iD38="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "zik2qUtAIkr95XCVnE8N/oD7+Kuzqo+uSLGF0wDL53g="
+        }
+      },
+      "5": {
+        "private": {
+          "type": "Buffer",
+          "data": "4PaNb3zBp6tHMvvY1TzrZ/QVM0ufavdj+AMk6gBbjlQ="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "jHr0xE0Yds8qAmcjmYoBel3lrOJyv2dBoJHhmf7Is0s="
+        }
+      },
+      "6": {
+        "private": {
+          "type": "Buffer",
+          "data": "kBEILEADjyrNRJzhrEG8ITulRcnoMz44kk0kM6xrdmc="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "X6i5jY7jt6GDG2niX5yYdwyBmOJIvKK0KoAOTp4+Mk0="
+        }
+      },
+      "7": {
+        "private": {
+          "type": "Buffer",
+          "data": "iMf4krJXbUDtidKK4CIWNWuMezTb+yfUkoxQv…
